@@ -223,8 +223,8 @@ h4 {
 .content-fifth-section{
   display: flex;
   flex-wrap: wrap; 
-  /* justify-content: space-between; */
-  align-items: center;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .fifth-heading{
@@ -232,21 +232,20 @@ h4 {
 }
 
 .article-img{
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
  .article {
-    width: 30%;
-    margin: 20px;
+  width: calc(33% - 20px); 
+  margin-bottom: 20px;
   }
 
 
   /* Footer Section */
   .footer {
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
-    z-index: 9999;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
   }
 }
