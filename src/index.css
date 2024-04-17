@@ -129,11 +129,6 @@ h4 {
     margin: 30px 40px 30px 40px;
   }
 
-  /* Images */
-  /* img {
-    max-width: 100%;
-    height: auto;
-  } */
 
   /* First Section */
   .content-first-section {
@@ -149,7 +144,7 @@ h4 {
   }
 
   .text-first-section {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   /* Second Section */
@@ -210,7 +205,8 @@ h4 {
 
   .fourth-section-paragraph {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
+    color: rgb(83, 83, 83);
   }
 
   .image-fourth-section {
