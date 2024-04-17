@@ -4,7 +4,7 @@ const FirstSection = () => {
   return (
     <section>
       <div className="container">
-        <h1>Section Heading</h1> 
+        <h1>Section heading</h1> 
         <div className="content-first-section">
           <img
             src="https://images.unsplash.com/photo-1536300099515-6c61b290b654?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -12,7 +12,7 @@ const FirstSection = () => {
             className="image-first-section"
           />
           <div className="text-first-section">
-            <h3>Block Heading</h3>
+            <h3>Block heading</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
               illum officiis atque voluptates repellat magnam a asperiores, amet

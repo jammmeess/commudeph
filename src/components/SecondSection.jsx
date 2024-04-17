@@ -4,7 +4,7 @@ const SecondSection = () => {
   return (
     <section>
       <div className="container">
-        <h2>Section Heading</h2>
+        <h2>Section heading</h2>
         <div className="content-second-section">
           <img
             src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -12,7 +12,7 @@ const SecondSection = () => {
             className="image-second-section"
           />
           <div className="text-second-section">
-            <h3>Block Heading</h3>
+            <h3>Block heading</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo
               mollitia optio cupiditate corrupti voluptate voluptas numquam

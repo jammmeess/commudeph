@@ -4,9 +4,9 @@ const ThirdSection = () => {
   return (
     <section className="third-section">
       <div className="third-section-article"></div>
-        <h2>Section Heading</h2>
+        <h2>Section heading</h2>
         <div className="content-third-section">
-          <h3 className="third-section-article">Block Heading</h3>
+          <h3 className="third-section-article">Block heading</h3>
         <p className="third-section-paragraph">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
           illum officiis atque voluptates repellat magnam a asperiores, amet
