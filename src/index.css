@@ -1,0 +1,252 @@
+body,
+html {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+/* Text and Fonts */
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 28px;
+}
+
+p {
+  line-height: 30px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Phone Responsive */
+
+@media only screen and (max-width: 768px) {
+  .some-element {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+    margin: 30px 30px 30px 30px;
+  }
+
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* First Section */
+
+  .content-first-section {
+    margin-bottom: 70px;
+  }
+
+  /* Second Section */
+
+  .content-second-section {
+    margin-bottom: 70px;
+  }
+
+
+  /* Third Section */
+
+  .third-section {
+    width: auto;
+    height: auto;
+    background-color: #121212;
+    color: rgb(216, 208, 208);
+    padding: 20px 30px 20px 30px;
+  }
+
+  .third-section-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .third-section-paragraph {
+    text-align: center;
+  }
+
+  /* Fourth Section */
+
+  .fourth-section-paragraph {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 70px;
+  }
+  
+  .fourth-heading{
+    margin-top: 80px;
+  }
+
+  /* Fifth Section */
+
+  .article-img {
+    width: 90%;
+    height: 80%;
+    margin: 0px 20px -20px 20px;
+  }
+
+  /* Footer Section */
+  .footer {
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Desktop / Laptop / PC Responsive*/
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: auto;
+    height: auto;
+    margin: 30px 40px 30px 40px;
+  }
+
+  /* Images */
+  /* img {
+    max-width: 100%;
+    height: auto;
+  } */
+
+  /* First Section */
+  .content-first-section {
+    display: flex;
+    align-items: center;
+    margin: 0px 100px 80px 0px;
+  }
+
+  .image-first-section {
+    width: 40%;
+    height: auto;
+    margin: 50px;
+  }
+
+  .text-first-section {
+    margin-top: 20px;
+  }
+
+  /* Second Section */
+  .content-second-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0px 50px 80px 50px;
+  }
+
+  .image-second-section {
+    width: 40%;
+    height: auto;
+    margin: 0px 0px 20px 50px;
+  }
+
+  .text-second-section {
+    margin: 0px;
+  }
+
+  /* Third Section */
+
+  .third-section {
+    width: auto;
+    height: auto;
+    background-color: #121212;
+    color: rgb(216, 208, 208);
+    padding: 50px 30px 20px 30px;
+  }
+
+  .content-third-section {
+    margin: 70px ;
+  }
+
+  .third-section-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .third-section-paragraph {
+    text-align: center;
+  }
+
+  /* Fourth Section */
+
+ .content-fourth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    margin: 50px 50px 80px 50px;
+  }
+
+  .fourth-heading{
+    margin-top: 80px;
+  }
+
+  .fourth-section-paragraph {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .image-fourth-section {
+    width: 50%;
+  }
+
+ 
+  /* Fifth Section */
+
+.content-fifth-section{
+  display: flex;
+  flex-wrap: wrap; 
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.fifth-heading{
+  margin-bottom: 80px;
+}
+
+.article-img{
+  width: 80%;
+  height: auto;
+}
+
+ .article {
+    width: 30%;
+    margin: 20px;
+  }
+
+
+  /* Footer Section */
+  .footer {
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    z-index: 9999;
+  }
+}
